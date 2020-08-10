@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.qualirede.procedimentos.ProcedimentosApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.677 s - in br.com.qualirede.procedimentos.ProcedimentosApplicationTests

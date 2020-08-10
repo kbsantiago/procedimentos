@@ -1,0 +1,39 @@
+databaseChangeLog:
+  -  preConditions:
+  -  runningAs:
+       username:  liquibase
+
+  -  changeSet:
+       id:  1
+       author:  kleyson
+       changes:
+         -  createTable:
+              tableName:  procedimentos
+              columns:
+                -  column:
+                     name:  id
+                     type:  BIGINT
+                     autoIncrement:  true
+                     constraints:
+                       primaryKey:  true
+                       nullable:  false
+                -  column:
+                     name:  procedimento
+                     type:  INTEGER
+                     constraints:
+                       - nullable:  false
+                - column:
+                    name:  idade
+                    type:  SMALLINT
+                    constraints:
+                      - nullable:  false
+                - column:
+                    name:  sexo
+                    type:  VARCHAR
+                  constraints:
+                    - nullable:  false
+                - column:
+                    name:  permitido
+                    type:  boolean
+                    constraints:
+                      - nullable:  false

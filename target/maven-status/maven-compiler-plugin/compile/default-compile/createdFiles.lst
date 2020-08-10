@@ -1,0 +1,9 @@
+br\com\qualirede\procedimentos\entities\Dto\ProcedimentoDto.class
+br\com\qualirede\procedimentos\services\Mappers\MapperEntity.class
+br\com\qualirede\procedimentos\services\Mappers\MapProcedimento.class
+br\com\qualirede\procedimentos\services\ProcedimentoService.class
+br\com\qualirede\procedimentos\entities\Procedimento.class
+br\com\qualirede\procedimentos\repository\ProcedimentoRepository.class
+br\com\qualirede\procedimentos\ProcedimentosApplication.class
+br\com\qualirede\procedimentos\services\ProcedimentoServiceImpl.class
+br\com\qualirede\procedimentos\controllers\ProcedimentoController.class
